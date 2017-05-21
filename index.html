@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Triva Game!</title>
+	<link rel="stylesheet" href="assets/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/game.js"></script>
+
+
+</head>
+<body>
+<div class="headerWrapper">
+	<header class="headerStyle">
+			<h1> Trivia Game! </h1>
+			<span class="timerStyle"> Time Left: <span id="timeUpdate"> 00:00 </span></span>
+	</header>
+</div>
+
+<div class="bodyWrapper">
+	<section class="mainSection">
+		<div class="startButtonDiv">
+			<p> Click "Start" to enjoy the game! </p>
+			<button id="startButton"> Start </button>
+		</div>
+
+		<div class= "qaDiv">
+			<h2 class="question"> </h2>
+			<div class="row"> 
+				<div class="col-sm-6">
+					<p class="answerOneText"></p>
+				</div>
+				<div clas= "col-sm-6">
+					<p class="answerTwoText"> </p>
+				</div>
+			</div>
+
+			<div class="row"> 
+				<div class="col-sm-6">
+					<p class="answerThreeText"></p>
+				</div>
+				<div clas= "col-sm-6">
+					<p class="answerFourText"> </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="resultDiv">
+			<p class="resultText"></p>
+			<P class="explainText"></P>
+		</div>
+
+		<div class="completeDiv">
+			<p class="statement">All Done! Here is how you did!</p>
+			<p class="correctAnswerDiv"></p>
+			<p class="wrongAnswerDiv"></p>
+			<p class="unansweredDiv"></p>
+			<button id="reStartButton"> Start Over?</button>
+
+		</div>
+
+	</section>
+
+</div>
+
+
+
+	
+</body>
+</html>
