@@ -1,6 +1,8 @@
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/background2.jpg");
 	font-family: 'Baloo Bhaina', cursive;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 

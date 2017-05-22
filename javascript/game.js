@@ -90,7 +90,7 @@ $(document).ready(function(){
 
         timer: function(numberOfQuestions) {
             clearInterval(intervalID);
-            timeCnt=20;
+            timeCnt=15;
             intervalID = setInterval(function(){
                 timeCnt--;
                 $("#timeUpdate").html(timeCnt + " Sec");
